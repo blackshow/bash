@@ -1,0 +1,25 @@
+[user]
+	name = blackshow
+	email = blackshow@gmail.com
+[core]
+	editor = vim
+	autocrlf = input
+	quotepath = false
+	excludesfile = ~/.gitignore_global
+[merge]
+	tool = vimdiff
+[color]
+	status = auto
+	branch = auto
+	interactive = auto
+	diff = auto
+	ui = true
+[push]
+	default = simple
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+[http]
+	postBuffer = 1048576000
